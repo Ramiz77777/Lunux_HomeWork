@@ -1,0 +1,15 @@
+   0 vi /tmp/file.txt
+   1 ls df -h
+   2 dh -h
+   3 df -h
+   4 df -h | head -3 > /tmp/file.txt
+   5 cat /tmp/file.txt 
+   6 vi /tmp/file.txt 
+   7 ls -l /tmp/file.txt 
+   8 chmod 646 /tmp/file.txt 
+   9 ls -l /tmp/file.txt 
+  10 chmod u-w /tmp/file.txt 
+  11 ls -l /tmp/file.txt 
+  12 chmod 457 /tmp/file.txt 
+  13 ls -l /tmp/file.txt 
+  14 history > history_02.20.2024
