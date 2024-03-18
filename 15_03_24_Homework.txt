@@ -1,0 +1,30 @@
+#!/bin/bash
+set -e
+
+echo "Hello Student!"
+echo "enter your name"
+read name
+echo "Welcome to terminal $name"
+
+
+mkdir -p /tmp/test /opt/mydate
+date +%D > /tmp/mydate.txt
+echo "soxranayem danniye"
+
+        for z in {1..10}
+        do
+        echo $z
+        sleep 0.5
+        done
+
+echo "Data saved.continue work"
+dh -h >> /tmp/mydate.txt
+mv /tmp/mydate.txt /opt/mydate/newmydate.txt
+
+        for z in {1..5}
+        do
+        echo $z
+        sleep 1
+        done
+
+echo "Well done Boss"
